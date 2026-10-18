@@ -38,7 +38,13 @@ All tokens live in `src/index.css` inside `@theme`.
 | --color-brand-bright | #B7000A | Red shapes on black surfaces | bg-brand-bright | Added Oct 2026 | Owner's second red for use over black. Wine red fails on black. |
 | --font-sans | "Oxygen", ui-sans-serif, system-ui, sans-serif | Default font for all text | font-sans (default) | Oct 2026 | Master font was listed but never wired into `@theme` |
 
-Note: `--color-brand-bright` is currently unused. Its only use, the decorative shape in the hero, was removed in Oct 2026. The token stays defined in `src/index.css`.
+Note: `--color-brand-bright` is unused on the page. Its hex value appears only in `public/favicon.svg`.
+
+## Exceptions
+
+| Where | What | Why |
+|---|---|---|
+| `public/favicon.svg` | Hard-coded `#111111` (ink) and `#B7000A` (brand-bright) | An SVG favicon cannot read CSS tokens. This is the only place a hex value is allowed outside `src/index.css`. If a master value changes, update this file too. |
 
 ## Contrast notes
 
