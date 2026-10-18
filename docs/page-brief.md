@@ -31,7 +31,6 @@ Description: Principal UX Architect. I design how people and AI work together.
 - Name (the one h1): Je-m-ke
 - Title: Principal UX Architect
 - Line: I design how people and AI work together.
-- A large decorative bright-red shape (bg-brand-bright). It is not text. Hide it from screen readers.
 - Text on the black block is white or grey (text-surface, or surface-alt for the quieter line).
 
 ### 2. Current role (light block)
