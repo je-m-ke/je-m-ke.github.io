@@ -49,4 +49,47 @@ export const profile = {
       },
     ],
   },
+  skills: {
+    heading: 'Skills',
+    // Display order: Core first, then Practising.
+    levels: [
+      { id: 'core', label: 'Core' },
+      { id: 'practising', label: 'Practising' },
+    ],
+    items: [
+      {
+        id: 'ux-architecture',
+        name: 'UX architecture',
+        line: 'From research and journeys to flows, information architecture, prototypes and usability testing.',
+        level: 'core',
+      },
+      {
+        id: 'design-systems',
+        name: 'Design systems',
+        line: 'Tokens, components and style guides, so designers and developers share one source of truth.',
+        level: 'core',
+      },
+      {
+        id: 'low-code-no-code',
+        name: 'Low-code and no-code product design',
+        line: 'UX and systems for builder-style products where non-technical people create things.',
+        level: 'core',
+      },
+      {
+        id: 'ai-product-ux',
+        name: 'AI product UX',
+        line: 'AI helpers people can trust: suggestions, edits, approvals, and recovery when the AI is wrong.',
+        level: 'practising',
+      },
+      {
+        id: 'ai-design-to-code',
+        name: 'AI-assisted design-to-code',
+        line: 'Moving designs into code with Claude Code and Figma MCP. I direct and review. AI writes.',
+        level: 'practising',
+      },
+    ],
+  },
+  footer: {
+    text: 'Full profile coming soon.',
+  },
 }
