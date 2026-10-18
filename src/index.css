@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* Remove Tailwind's default colours. Only the tokens below exist. */
+  --color-*: initial;
+
+  /* Master values. See docs/tokens.md before adding or changing anything. */
+  --color-surface: #FAFAFA;
+  --color-surface-alt: #EBEBEB;
+  --color-ink: #111111;
+  --color-brand: #76171E;
+  --color-brand-bright: #B7000A;
+
+    /* Master font. Oxygen has 3 weights only: 300, 400, 700. */
+  --font-sans: "Oxygen", ui-sans-serif, system-ui, sans-serif;
+
+}
