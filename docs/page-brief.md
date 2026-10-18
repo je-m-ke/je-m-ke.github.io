@@ -5,7 +5,7 @@ One page. Mobile first. Personal profile site. Not related to any company.
 ## Hard rules (never break)
 
 1. No personal information. Never add: email, phone, location, photo, social links, school names, dates, employer names, client names, product names.
-2. Use only the copy in this file. Do not invent, extend or reword it.
+2. Use only the copy in this file. Do not invent, extend or reword it. Exception: section headings are allowed, exactly as these: Current role, Domain experience, Skills.
 3. Use only existing tokens in docs/tokens.md. If none fits, propose a new token (name, value, role, reason) and wait for my yes.
 4. No hard-coded colours, fonts or sizes in components.
 5. No new npm packages. No analytics. No contact form. No routing.

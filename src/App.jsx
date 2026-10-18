@@ -1,4 +1,5 @@
 import CurrentRole from './components/CurrentRole.jsx'
+import DomainExperience from './components/DomainExperience.jsx'
 import Hero from './components/Hero.jsx'
 import { profile } from './data/profile.js'
 
@@ -8,6 +9,7 @@ function App() {
       <Hero {...profile.hero} />
       <main>
         <CurrentRole {...profile.role} />
+        <DomainExperience {...profile.domains} />
       </main>
     </>
   )
